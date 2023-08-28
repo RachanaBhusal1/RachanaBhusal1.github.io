@@ -3,21 +3,81 @@
         <title>AboutUs</title>
         <meta charset="utf_a"/>
         <style>
-            body{
-                Background-color:lightsalmon;
-            }
+           body{
+                        font-family: Arial;
+                        padding:10px;
+                        background: #f1f1f1;
+           }
             a{
                 color:green;
             }
-        </style>
+            
+            ul{
+                        list-style-type:none;
+                        margin:0;
+                        padding:0;
+                        overflow:hidden;
+                        background-color:#333;
+                
+                        
+                }
+                li {
+                   display: inline;
+                float: left;
+            
+              }
+                li a{
+                        display:block;
+                        color:white;
+                        padding:20px 20px;
+                       text-decoration:none;
+                }
+                        li a:hover{
+                        background-color:#111
+
+                }
+                .welcome{
+                    text-align: center;
+                    font-style:italic;
+                    font-size: 20px;
+                    margin:80px;
+                    animation-name: slidein;
+                    animation-duration: 20s;
+                    
+                              }
+                              @keyframes slidein{
+                   from{
+                       margin-center:100%
+                        }
+                           to{
+                        margin-right:0%;
+                      }
+                      }
+                .aboutus{
+                    font-size:16px;
+                    text-align-last: center;
+                    font-style: italic;
+                }
+                  </style>
         </head>
         <body>
-            <h1>About Us</h1>
-            <div type="aboutus">
-                <h2>Cafe@Belco</h2>
+            <form>
+                <ul class="header">
+                    <li><a href="Restaurant.html">Home</a></li>
+                    <li><a href="Menu.html">Menu</a></li>
+                    <li> <a href="aboutus.html">AboutUs</a></li>
+                    <li> <a href="contactus.html">ContactUs</a></li>
+                </ul>
+            </form>
+            <div class="welcome">
+            <h1>Welcome to The Cafe@Belco Restaurants</h1>
+            </div>
+            <div class="aboutus">
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                </p>
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
                 </p>
             </div>
-            <p><b><a href="Restaurant.html" target="_blank">Back to the main page</a></b></p>    
+           
         </body>
 </html>

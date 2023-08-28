@@ -2,114 +2,253 @@
     <head>
         <title>Menu</title>
         <meta charset="utf_a"/>
-        <style>
-            body{
-                background-color:lightsalmon;
-            }
-            
-            .column{
-                float:left;
-                padding:10px;
-            }
-            .column.side{
-                width:25%;
-            }
-            .column.middle{
-                width:25%;
-            }
-             .row::after{
-                content:"";
-                display:table;
-                clear:both;
-              }
-             
-            a{
-                color:green;
-            }
+    
+      <meta name="Menu" content="width=device-width, initial-scale=1">
+<style>
+              .header{
+               text-align:center;
+               padding: 25px;
+               animation-name: rotate;
+               animation-duration: 20s;
+                  }
+                  @keyframes rotate{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+   }
+                  div{
+                     display: block;
+                  }
+                  .row {
+    
+    display: flex;
+    flex-wrap: wrap;
+    /*margin-right: -10px;
+    margin-left: -10px;*/
+}
+.row1{
+display:flex;
+flex-wrap:wrap;
+margin-top: 10px;
+}
+.row2{
+display:flex;
+flex-wrap:wrap;
+margin-top: 10px;
+}
+.row3{
+display:flex;
+flex-wrap:wrap;
+margin-top: 10px;
+}
+.row4{
+display:flex;
+flex-wrap:wrap;
+margin-top: 10px;
+}
+.row5{
+display:flex;
+flex-wrap:wrap;
+margin-top: 10px;
+}
+.row6{
+display:flex;
+flex-wrap:wrap;
+margin-top: 10px;
+}
+.row7{
+display:flex;
+flex-wrap:wrap;
+margin-top: 10px;
+}
+.row8{
+display:flex;
+flex-wrap:wrap;
+margin-top: 10px;
+}
+
+          .column{
+            padding:20px;
+            background-color:honeydew;
+           flex-basis: 0;
+           margin-inline: 10px;
+    flex-grow: 1;
+    max-width: 100%;
+          }
+          .d-flex{
+           /* margin-bottom: 0.1rem!important;*/
+            justify-content:space-between!important;
+            display: flex!important;
+          }
+          .menu-item_title{
+            font-size: 18px;
+    letter-spacing: 0.2px;
+    margin-bottom: 7px;
+    font-weight: 700;
+          }
+          
+           .menu-item_price{
+            font-size: 18px;
+    font-weight: 600;
+    color: #d68000;
+    line-height: 24px;
+}
+.menu-item_description{
+   line-height: 20px;
+   letter-spacing:0.2px;
+}
+
+::after, ::before {
+    box-sizing: border-box;
+}
         </style>
         </head>
         <body>
-
-    <div class="row">
-        <div class="column side">
-            <h3>Number</h3>
-         </div>
-         <div class="column middle">
-            <h3>Name of Food</h3>
-         </div>
-         <div class="column side">
-            <h3>Price</h3>
-         </div>
-    
-</div> 
-<div class="row">
-    <div class="column side">
-        <h4>1</h4>
-     </div>
-     <div class="column middle">
-        <h4>chicken Mo:Mo</h4>
-     </div>
-     <div class="column side">
-        <h4>$15</h4>
-     </div>
-     </div>
-     <div class="row">
-    <div class="column side">
-        <h4>2</h4>
-     </div>
-     <div class="column middle">
-        <h4>chicken Chowmine</h4>
-     </div>
-     <div class="column side">
-        <h4>$15</h4>
-     </div>
-     </div>
-     <div class="row">
-        <div class="column side">
-            <h4>3</h4>
-         </div>
-         <div class="column middle">
-            <h4>chicken C.Mo:MO</h4>
-         </div>
-         <div class="column side">
-            <h4>$17</h4>
-         </div>
-         </div>
+         <div class="header"><h1>Our Menu </h1></div>
          <div class="row">
-            <div class="column side">
-                <h4>4</h4>
-             </div>
-             <div class="column middle">
-                <h4>chicken Jhol Mo:Mo</h4>
-             </div>
-             <div class="column side">
-                <h4>$15</h4>
-             </div>
-             </div>
-             <div class="row">
-                <div class="column side">
-                    <h4>5</h4>
-                 </div>
-                 <div class="column middle">
-                    <h4>Tass Set Chicken</h4>
-                 </div>
-                 <div class="column side">
-                    <h4>$25</h4>
-                 </div>
-                 </div>
-                 <div class="row">
-                    <div class="column side">
-                        <h4>6</h4>
-                     </div>
-                     <div class="column middle">
-                        <h4>Tass set Buff</h4>
-                     </div>
-                     <div class="column side">
-                        <h4>$20</h4>
-                     </div>
-                     </div>
-     
-
+            <div class="column">
+               <div class="d-flex justify-content-between mb-1">
+                  <span class="menu-item_title d-block">CHICKEN CHOILA</span>
+                  <span class="menu-item_price d-block">$13.5</span>
+               </div>
+               <p class="menu-item_description"> Tandoor cooked marinated chicken pieces tossed with ginger, garlic, spanish onions, fresh herbs, mustard oil and lemon </p>
+            </div>
+            <div class="column">
+               <div class="d-flex justify-content-between mb-1">
+                  <span class="menu-item_title d-block">MO:MO(CHICKEN OR VEG)- 8 Per Serve</span>
+                  <span class="menu-item_price d-block">$15.5</span>
+               </div>
+               <p class="menu-item_description">  Steamed dumplings filled with chicken or vegetable mince mixed with onion, coriander, ginger, garlic, and secret spices </p>
+            </div>
+            </div>
+            <div class="row1">
+            <div class="column">
+               <div class="d-flex justify-content-between mb-1">
+                  <span class="menu-item_title d-block">CHICKEN CHILLI</span>
+                  <span class="menu-item_price d-block">$13.5</span>
+               </div>
+               <p class="menu-item_description">   Diced chicken tender fillets marinated with himalayan herbs, deep-fried until crisp and sautéed with onions, capsicum  </p>
+            </div>
+            <div class="column">
+            <div class="d-flex justify-content-between mb-1">
+               <span class="menu-item_title d-block">SAMOSA</span>
+               <span class="menu-item_price d-block">$7</span>
+            </div>
+            <p class="menu-item_description"> Deep-fried, crisp triangular pastry filled with spiced mashed potatoes, corn and vegetables, served with yoghurt, tomato </p>
+         </div>
+         </div>
+         <div class="row2">
+            <div class="column">
+               <div class="d-flex justify-content-between mb-1">
+                  <span class="menu-item_title d-block">MUSTANG THALI SET</span>
+                  <span class="menu-item_price d-block">$29.5</span>
+               </div>
+               <p class="menu-item_description">  A typical nepalese dinner set, also popular as “Daal–Bhaat–Tarkari” comes in a traditional brass plate “Chares Thaal”  </p>
+            </div>
+            <div class="column">
+            <div class="d-flex justify-content-between mb-1">
+               <span class="menu-item_title d-block">AALO BODI TAMA</span>
+               <span class="menu-item_price d-block">$20.5</span>
+            </div>
+            <p class="menu-item_description">  One of the most authentic nepalese curries of potatoes, black-eyed beans and bamboo shoots slow-cooked on low flame </p>
+         </div>
+         </div>
+         <div class="row3">
+            <div class="column">
+               <div class="d-flex justify-content-between mb-1">
+                  <span class="menu-item_title d-block">NEPALI DALL</span>
+                  <span class="menu-item_price d-block">$20.5</span>
+               </div>
+               <p class="menu-item_description">  Red lentils cooked &amp; tempered with onions, garlic, ginger, tomato and aromatic spices such as cumin, coriander seed  </p>
+            </div>
+            <div class="column">
+            <div class="d-flex justify-content-between mb-1">
+               <span class="menu-item_title d-block">PALAK PANEER</span>
+               <span class="menu-item_price d-block">$22</span>
+            </div>
+            <p class="menu-item_description">  Cubes of homemade cottage cheese cooked in flavorous creamy sauce of fresh english spinach and himalayan herbs &amp; spices </p>
+         </div>
+         </div>
+         <div class="row4">
+            <div class="column">
+               <div class="d-flex justify-content-between mb-1">
+                  <span class="menu-item_title d-block">VEGETABLE TARKARI</span>
+                  <span class="menu-item_price d-block">$20.50</span>
+               </div>
+               <p class="menu-item_description">  Traditional mixed vegetables curry of potatoes, zucchinis, broccoli, cauliflower, peas, beans, carrots etc</p>
+            </div>
+            <div class="column">
+            <div class="d-flex justify-content-between mb-1">
+               <span class="menu-item_title d-block">VEGETABLE KOTTU</span>
+               <span class="menu-item_price d-block">$21</span>
+            </div>
+            <p class="menu-item_description">  Fresh mixed vegetables and red lentils cooked in coconut cream &amp; aromatic spices and finished with curry leaves</p>
+         </div>
+         </div>
+         <div class="row5">
+            <div class="column">
+               <div class="d-flex justify-content-between mb-1">
+                  <span class="menu-item_title d-block">CHICKEN CURRY</span>
+                  <span class="menu-item_price d-block">$22</span>
+               </div>
+               <p class="menu-item_description"> Tender chicken thigh pieces cooked in chef’s own curry sauce with touch of imported himalayan spices and fresh herbs </p>
+            </div>
+            <div class="column">
+            <div class="d-flex justify-content-between mb-1">
+               <span class="menu-item_title d-block">GOAT CURRY</span>
+               <span class="menu-item_price d-block">$23</span>
+            </div>
+            <p class="menu-item_description"> Premium goat curry pieces (bone-in) slow-cooked in exotic spice blend of cinnamon, bay leaves, tomatoes and coriander</p>
+         </div>
+         </div>
+         <div class="row6">
+            <div class="column">
+               <div class="d-flex justify-content-between mb-1">
+                  <span class="menu-item_title d-block">KHEER</span>
+                  <span class="menu-item_price d-block">$8</span>
+               </div>
+               <p class="menu-item_description"> Traditional nepalese style, spice-flavoured, creamy ice pudding topped with cashews and sultanas and dusted with cinnamo</p>
+            </div>
+            <div class="column">
+            <div class="d-flex justify-content-between mb-1">
+               <span class="menu-item_title d-block">MANGO KULFI</span>
+               <span class="menu-item_price d-block">$7.50</span>
+            </div>
+            <p class="menu-item_description">Mango flavoured indian style homemade icecream dusted with cinnamon</p>
+         </div>
+         </div>
+             <div class="row7">
+            <div class="column">
+               <div class="d-flex justify-content-between mb-1">
+                  <span class="menu-item_title d-block">MANGO LASSI</span>
+                  <span class="menu-item_price d-block">$7.00</span>
+               </div>
+               </div>
+                <div class="column">
+            <div class="d-flex justify-content-between mb-1">
+               <span class="menu-item_title d-block">Fanta Orange Soft Drink(375ML CANS)</span>
+               <span class="menu-item_price d-block">$4.00</span>
+            </div>
+         </div>
+         </div>
+         <div class="row8">
+            <div class="column">
+               <div class="d-flex justify-content-between mb-1">
+                  <span class="menu-item_title d-block">Solo Lemon soft Drink(375ML CANS)</span>
+                  <span class="menu-item_price d-block">$4.00</span>
+               </div>
+               </div>
+                <div class="column">
+            <div class="d-flex justify-content-between mb-1">
+               <span class="menu-item_title d-block">Coca Cola Classic Soft Drink(375ML CANS)</span>
+               <span class="menu-item_price d-block">$4.00</span>
+            </div>
+         </div>
+         </div>
+   
 
 <p><b><a href="Restaurant.html" target="_blank">Back to the main page</a></b></p>    
         </body>
