@@ -1,6 +1,6 @@
 import React from 'react';
 import './Contactus.css';
-const contact = () =>{
+const Contactus = () =>{
     return(
         <form>
         <lable for="fname">First Name</lable>
@@ -19,4 +19,4 @@ const contact = () =>{
     )
 }
 
-export default contact;
+export default Contactus;
