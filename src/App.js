@@ -1,12 +1,11 @@
 
 import './App.css';
 import Navbar from './components/navbar/Navbar';
-import Home from './pages/Home/home';
-import Menu from './pages/menu/menu';
-import AboutUs from './pages/aboutus/aboutus';
-import Contact from './pages/contactus/contact';
+import Home from './pages/home/Home';
+import Menu from './pages/menu/Menu';
+import AboutUs from './pages/aboutus/Aboutus';
+import Contact from './pages/contactus/Contactus';
 import{BrowserRouter,Routes, Route} from 'react-router-dom';
-import NotFound from './pages/NotFound/NotFound'; 
 function App() {
   return (
     <BrowserRouter>
