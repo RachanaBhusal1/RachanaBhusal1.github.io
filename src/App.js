@@ -1,10 +1,10 @@
 
 import './App.css';
 import Navbar from './components/navbar/Navbar';
-import Home from './pages/home/Home';
-import Menu from './pages/menu/Menu';
-import AboutUs from './pages/aboutus/Aboutus';
-import Contactus from './pages/contactus/Contactus';
+import Home from '.components/pages/home/Home';
+import Menu from '.components/pages/menu/Menu';
+import AboutUs from '.components/pages/aboutus/Aboutus';
+import Contactus from '.components/pages/contactus/Contactus';
 import{BrowserRouter,Routes, Route} from 'react-router-dom';
 function App() {
   return (
