@@ -1,11 +1,17 @@
-
+import React from 'react';
 import './App.css';
+import { BrowserRouter as Router} from 'react-router-dom';
+import Header from './components/header/header';
+
 function App() {
   return (
-   <>
-   <h1>Rachana Portfolio</h1>
-   </>
+    <Router>
+      <div className="App">
+        <Header />
+      </div>
+    </Router>
   );
 }
 
 export default App;
+
