@@ -5,6 +5,7 @@ function Header() {
     <header className='header'>
       <h1>Rachana Bhusal</h1>
       <p>Web Developer</p>
+      
     </header>
   );
 }
