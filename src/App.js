@@ -1,22 +1,20 @@
-import React from 'react';
-import { BrowserRouter as Router, Route} from 'react-router-dom';
-import Navigation from './components/Navigation';
-import AboutMe from './components/AboutMe';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
-
+import './App.css';
+import Navbar from './components/navbar/Navbar';
+import Contact from './pages/contact/Contact';
+import About from './pages/About/About';
+import{BrowserRouter,Routes, Route} from 'react-router-dom';
 function App() {
   return (
-    <Router>
-      <Navigation />
-      <Route>
-        <Route path="/about" component={AboutMe} />
-        <Route path="/projects" component={Projects} />
-        <Route path="/contact" component={Contact} />
-      </Route>
-    </Router>
+    <BrowserRouter>
+     <Navbar/>
+    <Routes>
+      <Route path ="/" element={<About/>}/>
+      <Route path ="/contact" element={<Contact/>}/>
+      </Routes>
+      </BrowserRouter>
   );
 }
+
 export default App;
 
 
