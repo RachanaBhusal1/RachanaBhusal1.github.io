@@ -6,6 +6,7 @@ const Navbar = () =>{
         <nav>
  <div className="header"> 
                          <h1>Rachana Bhusal</h1>
+                         <span>Web Developer</span>
 </div>
 <ul>
 <li><Link to={'/'}>About</Link></li>
