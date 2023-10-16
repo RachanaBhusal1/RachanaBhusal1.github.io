@@ -8,3 +8,25 @@ background: lightgray;
     font-size: 20px;
     padding:10px;
 }
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:lightgray;
+    top:50px;
+}
+li {
+display:inline;
+float:inline-end;
+}
+li a{
+    display:block;
+    color:Black;
+    padding:20px 20px;
+   text-decoration:none;
+}
+    li a:hover{
+    background-color:aliceblue;
+
+    }

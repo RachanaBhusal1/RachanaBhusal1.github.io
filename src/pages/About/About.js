@@ -4,11 +4,26 @@ const about = () =>{
     return(
        
         <div className="about">
-            <h2>Welcome Rachana Portfolio</h2>
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-            </p>
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-            </p>
+            <h2>Introduction</h2>
+            <p>Hello, I'm Rachana Bhusal, a passionate and dedicated individual with a strong background in Web Development. I am driven by a curiosity to learn, a desire to make a meaningful impact. I believe in continuous growth and the power of hard work. This portfolio will give you a glimpse into my professional journey, educational achievements, and personal interests.</p>
+       <br /><br />
+       <h2>Hobbies</h2>
+       <p>In addition to my professional life, I am passionate about a range of hobbies and interests. Here are a few things I love to do outside of work:</p>
+        <span><b>Reading Books</b></span><br />
+        <span><b>Dancing</b></span><br />
+        <span><b>Cooking</b></span>
+        <br /><br />
+        <h2>Education</h2>
+        <span><b>Certificate IV In Information Technology</b></span><br/>
+        <span><b>Diploma of Information Technology</b></span><br/>
+        <span><b>Bachelor of Information Technology</b></span>
+
+        <br/><br/>
+        <h2>Work Experience</h2>
+        <br/><br/>
+        <p>Thank you for taking the time to explore my portfolio. If you have any questions or would like to get in touch, please feel free to contact me at rachanabhusal99@gmail.com.</p>
+
+
         </div>
     )
 }
