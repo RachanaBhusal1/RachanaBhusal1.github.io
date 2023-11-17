@@ -5,6 +5,7 @@ import Navbar from './Navbar';
 test('renders Navbar', () => {
   render(<Navbar />);
   const header = screen.getByText(/Rachana Bhusal/i);
+  const home = screen.getByText(/Home/i);
   const about = screen.getByText(/About/i);
   const contact = screen.getByText(/Contact/i);
   expect(header).toBeInTheDocument();
