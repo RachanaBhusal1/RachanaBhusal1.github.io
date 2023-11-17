@@ -1,6 +1,6 @@
 import React from 'react';
-import Rachana from './image/Rachana.jpg';
 import './About.css';
+import Rachana from './image/Rachana.jpg';
 
 
 const About = () =>{
