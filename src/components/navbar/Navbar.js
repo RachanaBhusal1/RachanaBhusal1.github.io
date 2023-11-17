@@ -5,12 +5,10 @@ const Navbar = () =>{
     return(
         <nav>
  <div className="header"> 
-                         <h1>Rachana Bhusal</h1>
-                         <span>Web Developer</span>
 </div>
 <ul>
-    <li><Link to = {'/'}Home></Link></li>
-<li><Link to={'/'}>About</Link></li>
+    <li><Link to = {'/'}>Home</Link></li>
+<li><Link to={'/about'}>About</Link></li>
 <li><Link to={'/contact'}>Contact</Link></li>
 
 

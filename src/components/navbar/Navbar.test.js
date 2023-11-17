@@ -9,6 +9,7 @@ test('renders Navbar', () => {
   const about = screen.getByText(/About/i);
   const contact = screen.getByText(/Contact/i);
   expect(header).toBeInTheDocument();
+  expect(home).toBeInTheDocument();
   expect(about).toBeInTheDocument();
   expect(contact).toBeInTheDocument();
 
