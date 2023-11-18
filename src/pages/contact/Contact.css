@@ -18,4 +18,24 @@
     margin: 10px 0;
     color: #222;
   }
+  /* Portfolio.css */
+
+.resume {
+  margin-top: 20px;
+}
+
+.resume a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.resume a:hover {
+  background-color: #2980b9;
+}
+
   
