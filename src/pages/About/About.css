@@ -26,11 +26,24 @@
   
   h2 {
     color: #333;
+  
   }
   
-  p {
+  span {
     font-size: 16px;
     line-height: 1.6;
     color: #666;
+    font-style: italic;
+    animation-name:rotate;
+    animation-duration: 10s;
   }
+       @keyframes rotate{
+from{
+transform:rotate(0deg);
+}
+to{
+transform:rotate(360deg);
+}
+}
+
   
