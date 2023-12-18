@@ -34,7 +34,7 @@
     line-height: 1.6;
     color: #666;
     font-style: italic;
-    animation-name:rotate;
+    /*animation-name:rotate;
     animation-duration: 10s;
   }
        @keyframes rotate{
@@ -43,7 +43,8 @@ transform:rotate(0deg);
 }
 to{
 transform:rotate(360deg);
+} */
 }
-}
+
 
   
