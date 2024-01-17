@@ -1,16 +1,19 @@
 #about {
     background-color: #f8f8f8;
+    
     padding: 40px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
     display: flex;
-    align-items: center; /* Align content vertically in the flex container */
+  justify-content: center; /* Aligns items along the main axis (horizontal centering) */
+  height:400px;
   }
   
   .profile-container {
     flex-shrink: 0; /* Do not allow the profile container to shrink */
-    margin-right: 20px;
+    margin-right: 10px;
+    height: 400px;
   }
   
   .profile-image {
@@ -21,7 +24,9 @@
   }
   
   .text-container {
-    max-width: 800px;
+    color: black;
+    width: 300px;
+    margin: 5px;
   }
   
   h2 {

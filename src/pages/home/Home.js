@@ -22,11 +22,12 @@ const styles = {
   },
   heading: {
     fontSize: '36px',
+    color:'#215f5f',
     marginBottom: '10px',
   },
   subheading: {
     fontSize: '18px',
-    color: '#888',
+    color: '#215f5f',
     marginBottom: '20px',
   },
   description: {
