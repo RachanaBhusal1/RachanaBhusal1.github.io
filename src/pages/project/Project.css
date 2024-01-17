@@ -1,8 +1,13 @@
 
 .project-container {
-    padding: 10px;
-    border: 2px solid #ddd;
-    margin: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 100px;
+  border: 10px solid #ccc;
+  border-radius: 50px;
+  box-sizing: inherit;
+  box-shadow: 0 0 10px blueviolet;
+  background-color: #fff;
   }
   
   .code-section {

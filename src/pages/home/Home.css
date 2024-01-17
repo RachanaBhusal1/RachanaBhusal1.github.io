@@ -1,0 +1,25 @@
+.Home {
+    text-align: center;
+  }
+  
+  .Home-header {
+    background-color: lightslategray;
+    padding: 20px;
+    
+  }
+  
+  .About {
+    margin: 20px;
+    padding:20px;
+  }
+  h1 {
+    color: #215f5f;
+    text-align: center;
+  
+  }
+  
+  p {
+    color: black;
+  }
+  
+  

@@ -1,39 +1,29 @@
-// Home.js
-
 import React from 'react';
+import './Home.css';
 
-const Home = () => {
+
+function Home() {
   return (
-    <div style={styles.container}>
-      <h1 style={styles.heading}>Rachana Bhusal</h1>
-      <p style={styles.subheading}>Web Developer</p>
-      <p style={styles.description}>
-        Welcome to my portfolio! I am passionate about creating
-        responsive and user-friendly web applications.
+    <div className="Home">
+      <header className="Home-header">
+        <h1>Rachana Bhusal</h1>
+        <p>Web Developer</p>
+      </header>
+      <section className="About">
+        <p>
+        Welcome to my portfolio! I'm Rachana Bhusal, graduate with a degree in 
+        Information Technology. My Academic journey equipped me with a strong
+        foundation in web developement, focusing on HTML, CSS and JavaScript.
       </p>
+      <p>I've worked on personal projects, like Restaurant website, to build
+        a portfolio. I'm passionate about creating user-friendly websites and
+        excited about contributing my skills to innovative projects.
+      </p>
+      <p>Despite being new to the field, I bring enthusiasm, a willingness 
+        to learn, and a solid understanding of web development principle.</p>
+       </section>
     </div>
   );
-};
-
-const styles = {
-  container: {
-    textAlign: 'center',
-    padding: '50px',
-  },
-  heading: {
-    fontSize: '36px',
-    color:'#215f5f',
-    marginBottom: '10px',
-  },
-  subheading: {
-    fontSize: '18px',
-    color: '#215f5f',
-    marginBottom: '20px',
-  },
-  description: {
-    fontSize: '16px',
-    lineHeight: '1.6',
-  },
-};
+}
 
 export default Home;
