@@ -9,7 +9,7 @@ const Project= () => {
  Made it easy to use and look awesome.
   Now people can check out the menu and more online.
   It's like bringing the restaurant vibe to the internet!"</p>
-      <div className="code-section">
+      { /* <div className="code-section">
       <a href="http://localhost:3002/" target="_blank" rel="noopener noreferrer">
   Restaurant Website
 </a>
