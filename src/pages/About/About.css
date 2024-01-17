@@ -1,55 +1,24 @@
-#about {
-    background-color: #f8f8f8;
-    
-    padding: 40px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 30px;
-    display: flex;
-  justify-content: center; /* Aligns items along the main axis (horizontal centering) */
-  height:400px;
-  }
-  
-  .profile-container {
-    flex-shrink: 0; /* Do not allow the profile container to shrink */
-    margin-right: 10px;
-    height: 400px;
-  }
-  
-  .profile-image {
+.profile-image {
     width: 150px;
     height: 150px;
     border-radius: 50%; /* Create a circular shape */
     object-fit: cover; /* Maintain aspect ratio and cover container */
   }
   
-  .text-container {
-    color: black;
-    width: 300px;
-    margin: 5px;
-  }
+
   
+  .about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
   h2 {
-    color: #333;
+    color: #215f5f;
   
   }
   
   span {
     font-size: 16px;
-    line-height: 1.6;
-    color: #666;
-    font-style: italic;
-    /*animation-name:rotate;
-    animation-duration: 10s;
+    line-height: 1.5;
+    color: #333;
   }
-       @keyframes rotate{
-from{
-transform:rotate(0deg);
-}
-to{
-transform:rotate(360deg);
-} */
-}
-
-
-  
