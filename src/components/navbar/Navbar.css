@@ -18,7 +18,7 @@ ul{
 }
 li {
 display:inline;
-float:inline-end;
+float:inline-start;
 }
 li a{
     display:block;
